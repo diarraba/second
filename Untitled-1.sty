@@ -1,0 +1,18 @@
+<WebView source={{uri:'www.facebook.com'}}/>
+      <Text style={styles.welcome}>Bienvenue sur mon application</Text>
+      <Text style={styles.login}>Login to my App</Text>
+      <TextInput
+        style={styles.input}
+        placeholder='Username' />
+      <TextInput
+        style={styles.input}
+        placeholder='Password'
+        secureTextEntry />
+      <View style={styles.boutonContainer}>
+        <TouchableOpacity style={styles.bouton}>
+          <Text style={styles.boutonTexte}>Connexion</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.bouton}>
+          <Text style={styles.boutonTexte}>S'inscrire</Text>
+        </TouchableOpacity>
+      </View>
